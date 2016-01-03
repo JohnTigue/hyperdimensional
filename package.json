@@ -1,0 +1,27 @@
+{
+  "name": "pentti",
+  "version": "0.0.1",
+  "description": "Kanervan machinery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnTigue/pentti.git"
+  },
+  "keywords": [
+    "SDM",
+    "RI",
+    "AMU"
+  ],
+  "author": "John Tigue",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JohnTigue/pentti/issues"
+  },
+  "homepage": "https://github.com/JohnTigue/pentti#readme",
+  "dependencies": {
+    "mathjs": "^2.5.0"
+  }
+}
