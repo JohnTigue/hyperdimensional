@@ -23,6 +23,6 @@
   "homepage": "https://github.com/JohnTigue/pentti#readme",
   "dependencies": {
     "immutable": "^3.7.6",
-    "mathjs": "^2.5.0"
+    "mathjs": "^7.0.2"
   }
 }
