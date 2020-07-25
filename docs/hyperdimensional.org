@@ -1,10 +1,10 @@
 * Hyperdimensional Computing
 ** Inbox
-- [[https://www.youtube.com/watch?time_continue=322&v=6ch6fXwraZQ&feature=emb_logo][Plate's Linear VSA manifesto]]
 
 ** VSA Workshop 2020
 - [[https://sites.google.com/view/vsaworkshop2020/program][VSA workshop 2020]]
 - Plate
+  - [[https://www.youtube.com/watch?time_continue=322&v=6ch6fXwraZQ&feature=emb_logo][Plate's Linear VSA manifesto]]
   - [[https://www.frontiersin.org/articles/10.3389/frobt.2020.00063/full][Symbolic Representation and Learning With Hyperdimensional Computing]]
     #+begin_quote
     It has been proposed that machine learning techniques can benefit
