@@ -1,0 +1,111 @@
+* Hyperdimensional Computing
+** Inbox
+- [[https://www.youtube.com/watch?time_continue=322&v=6ch6fXwraZQ&feature=emb_logo][Plate's Linear VSA manifesto]]
+
+** VSA Workshop 2020
+- [[https://sites.google.com/view/vsaworkshop2020/program][VSA workshop 2020]]
+- Plate
+  - [[https://www.frontiersin.org/articles/10.3389/frobt.2020.00063/full][Symbolic Representation and Learning With Hyperdimensional Computing]]
+    #+begin_quote
+    It has been proposed that machine learning techniques can benefit
+    from symbolic representations and reasoning systems. We describe a
+    method in which the two can be combined in a natural and direct way
+    by use of hyperdimensional vectors and hyperdimensional
+    computing. By using hashing neural networks to produce binary vector
+    representations of images, we show how hyperdimensional vectors can
+    be constructed such that vector-symbolic inference arises naturally
+    out of their output. We design the Hyperdimensional Inference Layer
+    (HIL) to facilitate this process and evaluate its performance
+    compared to baseline hashing networks. In addition to this, we show
+    that separate network outputs can directly be fused at the vector
+    symbolic level within HILs to improve performance and robustness of
+    the overall model. Furthermore, to the best of our knowledge, this
+    is the first instance in which meaningful hyperdimensional
+    representations of images are created on real data, while still
+    maintaining hyperdimensionality.
+    #+end_quote
+
+** Kanerva, Pentti
+*** Computing with High-Dimensional Vectors (papers & talks)
+- [[https://twitter.com/johntigue/status/1041255480868265984][twitter:@johntigue:2018-09-16]] links to 2017 Stanford Seminar
+  #+BEGIN_QUOTE
+  Computing with High-dimensional Vectors Stanford lecture on the 2017
+  state of Kanerva's math, SDM (1988) and on.
+  #+END_QUOTE
+
+- [[https://www.youtube.com/watch?v=zUCoxhExe0o][Stanford Seminar - Computing with High-Dimensional Vectors]]
+  - youtube:stanfordonline
+    - Published on Oct 26, 2017
+    - P1h
+  - This may be the one to start with. The whole presentation is well
+    developed and smooth, well, as smooth as an introduction to a
+    whole new way of computing can be
+
+- [[https://ieeexplore.ieee.org/abstract/document/8594669/authors][Computing with High-Dimensional Vectors (2018-12 IEEE Design & Test)]]
+    #+BEGIN_QUOTE
+    Editor's note: The author reviews the principles of
+    high-dimensional (HD) computing as a brain-inspired paradigm, with
+    variables and operations encoded in vectors with high
+    dimensionality (e.g., 10,000). HD computing has been shown to be a
+    robust novel approach with promising applications in language and
+    biosignal processing. -An Chen, Semiconductor Research
+    Corporation.
+    #+END_QUOTE
+
+- [[https://www.youtube.com/watch?v=oB_mHCurNCI][Pentti Kanerva: Computing with Hypervectors]]
+  - youtube: UC Berkeley Events
+    - P34m02s
+    - Published on Mar 31, 2016
+  - [ ] Slides (not exact match) [[http://web.stanford.edu/class/ee380/Abstracts/171025-slides.pdf][Computing With High-Dimensional Vectors]]
+    - stanford:classes:ee380
+    - [ ] So stanford URL for slides, for Berkeley talk?
+    #+BEGIN_QUOTE
+    Pentti Kanerva
+      UC Berkeley, Redwood Center for Theoretical Neuroscience
+      Stanford, CSLI
+      pkanerva@csli.stanfrod.edu
+    #+END_QUOTE
+
+*** Kanerva talks
+- [ ] [[https://archive.org/search.php?query=pentti%20kanerva][SERP on archive.org]]
+- [[https://www.youtube.com/watch?v=zUCoxhExe0o][YouTube(Stanfordonline, 2017, 60m)]]
+  #+BEGIN_QUOTE
+  in@4m: [in slides] reverse-engineering the brain in the absense of
+  an adequate theory of computing is next to impossible
+
+  [[https://www.youtube.com/watch?v=zUCoxhExe0o][in@58m]]: by the way natural language processing is one of the areas
+  where I hope that we will really make some important advances
+  because now we have a system where we can actually represent
+  structure because we can we can in in some sense we could implement
+  Lisp
+  #+END_QUOTE
+- [[https://www.youtube.com/watch?v=oB_mHCurNCI][Pentti Kanerva: Computing with Hypervectors]]
+  - UC Berkeley Events
+  - Published on Mar 31, 2016
+- [[https://archive.org/details/ucbvs298_neural_comp_2008_12_09][Pentti Kanerva: UC Berkeley VS298 - Neural Computation Lecture 2008-12-09]]
+- [[https://archive.org/details/Redwood_Center_2014_02_14_Pentti_Kanerva][Pentti Kanerva: Neurocomputing a la von Neumann]] Publication date 2014-02-14
+- [[https://archive.org/details/Redwood_Center_2017_06_09_Pentti_Kanerva][Pentti Kanerva: The Brain's Circuits Suggest Computing with High-Dimensional Vectors]] Publication date 2017-06-09
+- [[https://youtu.be/zUCoxhExe0o][Stanford Seminar - Computing with High-Dimensional Vectors]]
+*** Kanerva papers
+- Where to start for newbies
+  - Kanerva 2014 (8p)
+    - [[http://www.rctn.org/vs265/Kanerva-allerton2014.pdf][Computing with 10,000-Bit Words]]
+      - published in IEEE's 2014 52nd Annual Allerton Conference.
+      - https://ieeexplore.ieee.org/abstract/document/7028470
+  - Kanerva 2009 (21p)
+    - [[http://www.rctn.org/vs265/kanerva09-hyperdimensional.pdf][Hyperdimensional Computing: An Introduction to Computingin Distributed Representation with High-DimensionalRandom Vectors]]
+      - Cogn Comput (2009) 1:139–159
+      - DOI 10.1007/s12559-009-9009-8
+*** Kanerva referencing papers
+- [[https://arxiv.org/abs/1804.01756][The Kanerva Machine: A Generative Distributed Memory]]
+  - [[https://scholar.google.com/scholar?cites=9888262262485457347&as_sdt=5,48&sciodt=0,48&hl=en][Citations as per gScholar]]
+  - [ ] What's this say about KPU? is it supporting evidence?
+  - Seems [[https://www.researchgate.net/publication/324246418_The_Kanerva_Machine_A_Generative_Distributed_Memory][Lillicrap uploaded it to researchgate]] and that copy says it was publish as conference paper ICLR 2018
+  - arxiv
+    - [[https://arxiv.org/abs/1804.01756][Overview]]
+    - [[file:reading_list/kanerva_machine.pdf][cached kanerva_machine.pdf]]
+**** Lillicrap
+- [[http://contrastiveconvergence.net/~timothylillicrap/index.php][homepage of timothy lillicrap]]
+- [[https://scholar.google.ca/citations?hl=en&user=htPVdRMAAAAJ&view_op=list_works&sortby=pubdate][On gScholar]]
+- [[https://www.youtube.com/watch?v=vbvl0k-aUiE][Deep Learning and the Brain 2019 – Dr. Timothy Lillicrap]]
+
