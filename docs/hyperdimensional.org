@@ -104,10 +104,9 @@
 - [[https://scholar.google.ca/citations?hl=en&user=htPVdRMAAAAJ&view_op=list_works&sortby=pubdate][On gScholar]]
 - [[https://www.youtube.com/watch?v=vbvl0k-aUiE][Deep Learning and the Brain 2019 – Dr. Timothy Lillicrap]]
 
+** TODO AMU
 ** HD and VSA Workshop 2020
 - [[https://sites.google.com/view/vsaworkshop2020/program][Online Webinars on Developments in Hyperdimensional Computing and Vector-Symbolic Architectures]]
-*** Ross Gaylor
-- [[https://youtu.be/mEW5HeUx504?t=226][VSA, Analogy, and Dynamic Similarity]]
 *** Tony Plate
 - [[https://youtu.be/6ch6fXwraZQ][Vector representations + addition + multiplication = conceptual reasoning]]
   - Reviews high-level history, CS and NS
@@ -115,5 +114,23 @@
   - [[https://en.wikipedia.org/wiki/Metaphors_We_Live_By#:~:text=Metaphors%20We%20Live%20By%20is,time%2C%20mental%20activity%20and%20feelings.][Lakoff and Johnson's "Metaphors we live by"]] 1980
   - [[https://www.youtube.com/watch?time_continue=322&v=6ch6fXwraZQ&feature=emb_logo][Plate's Linear VSA manifesto]]
   - [[http://www2.fiit.stuba.sk/~kvasnicka/CognitiveScience/6.prednaska/plate.ieee95.pdf][Holographic Reduced Representations (1995)]]
+*** Ross Gaylor
+- [[https://youtu.be/mEW5HeUx504?t=226][VSA, Analogy, and Dynamic Similarity]]
+  #+begin_quote
+  This talk is not a presentation of any new material. It's basically
+  me trying to sell an idea which i think is very important, which I've
+  been working on for quite a long time but I think it would be very
+  valuable if if more people would be looking at it. So obviously it's
+  bound up with VSA, hyperdimensional computing but also analogy which
+  is my primary motivation and I think the idea which I'd like people
+  to take away is one of dynamics similarity.
+  #+end_quote
+- JFT
+  - He's saying the the graph isomorphism must be created in realtime, not ahead of time
+    - "Arguable that representations are created on-the-fly in response to task demands"
+      - Recommends reading Chalmers, French, & Hofstadter, 1992
+        - [[https://d1wqtxts1xzle7.cloudfront.net/7369801/ScienceofArt.pdf?1325334763=&response-content-disposition=inline%3B+filename%3DThe_science_of_art_A_neurological_theory.pdf&Expires=1595787260&Signature=NS9T1Tt5aM6fpxEJlNUQ8B6UBwPCle9rFNebYyXN~vix2JBb2NBja2BIwZ~Rw-1IUIvdfJOoD4mfW6ovHqOLICcrOZ5pAjLD5FOIpCMGyDaVZtBnx8UL0V0GQBsac3SBZgQiO0T2zEgfeIda~KxpgQ~txp~5wi2u9qJUdZUkxHvbo48CHxujSO5XFB6Em1zJPg24CPfU8Mh2yeyNFE4dDCJ2c3ze3CKSScZsmd8g1YQ1e3Zn4NFVP1sVZ8UZG3sgGi6BT1tQj2rs7VjQvH5-m1-gng6sczjUnk3aHEzOECqSr~ZsMyCSWAjiMQj5EjycXDP9U0EuB3MRVJGpr7Kgew__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=3][High-Level Perception, Representation, and Analogy:A Critique of Artificial Intelligence Methodology]]
+ 
 *** Paxon Frady
 - [[https://youtu.be/T0mqBCpDqwk?t=21][Resonator circuits: a neural network for efficiently solving factorization problems]]
+
