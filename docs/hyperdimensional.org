@@ -1,24 +1,149 @@
 * Hyperdimensional Computing
-** Inbox
+** Captured
+*** [2020-08-01 Sat]
+- [[https://www.researchgate.net/publication/311895162_Compact_and_Interpretable_Dialogue_State_Representation_with_Genetic_Sparse_Distributed_Memory][Compact and Interpretable Dialogue State Representation with Genetic Sparse Distributed Memory]]
+  - AU: El Asri, Layla
+  - AU: Laroche, Romain
+  - AU: Pietquin, Olivier
+  - PY: 2017/12/01
+  - Abstract
+    #+begin_quote
+    User satisfaction is often considered as the objective that should
+    be achieved by spoken dialogue systems. This is why the reward
+    function of Spoken Dialogue Systems (SDS) trained by Reinforcement
+    Learning (RL) is often designed to reflect user satisfaction. To
+    do so, the state space representation should be based on features
+    capturing user satisfaction characteristics such as the mean
+    speech recognition confidence score for instance. On the other
+    hand, for deployment in industrial systems there is a need for
+    state representations that are understandable by system
+    engineers. In this article, we propose to represent the state
+    space using a Genetic Sparse Distributed Memory. This is a state
+    aggregation method computing state prototypes which are selected
+    so as to lead to the best linear representation of the value
+    function in RL. To do so, previous work on **Genetic Sparse
+    Distributed Memory** for classification is adapted to the
+    Reinforcement Learning task and a new way of building the
+    prototypes is proposed. The approach is tested on a corpus of
+    dialogues collected with an appointment scheduling system. The
+    results are compared to a grid-based linear parametrisation. It is
+    shown that learning is accelerated and made more memory
+    efficient. It is also shown that the framework is scalable in that
+    it is possible to include many dialogue features in the
+    representation, interpret the resulting policy and identify the
+    most important dialogue features.
+    #+end_quote
+- [[https://www.sciencedirect.com/science/article/abs/pii/S0031320397000174][A genetic sparse distributed memory approach to the application of handwritten character recognition]]
+  - Kuo-Chin Fan, Yuan-Kai Wang, Taiwan
+  - Pattern Recognition Volume 30, Issue 12, December **1997**, Pages 2015-2022
+  - Abstract
+    #+begin_quote
+    Kanerva's Sparse Distributed Memory (SDM) is one of the
+    self-organizing neural networks that mimic closely the
+    psychological behavior of the human brain. In this paper, a
+    Genetic Sparse Distributed Memory (GSDM) model that combines SDM
+    with genetic algorithms is proposed. The proposed GSDM model not
+    only maintains the advantages of both SDM and genetic algorithms,
+    but also has higher memory utilization to improve the recognition
+    rate. Its effective performance is also verified by application to
+    Optical Character Recognition (OCR). Experimental results reveal
+    the feasibility and validity of the proposed model.
+    #+end_quote
+- [[https://arxiv.org/pdf/1207.5774.pdf][A New Training Algorithm for Kanerva’s Sparse Distributed Memory]]
+  - Lou Marvin Caraig
+  - 2012
+  - Abstract
+    #+begin_quote
+    The Sparse Distributed Memory proposed by Pentii Kanerva (SDM in
+    short) was thought to be a model of human long term memory. The
+    architecture of the SDM permits to store binary patterns and to
+    retrieve them using partially matching patterns.  However
+    Kanerva’s model is especially efficient only in handling random
+    data. The purpose of this article is to introduce a new approach
+    of training Kanerva’s SDM that can handle efficiently non-random
+    data, and to provide it the capability to recognize inverted
+    patterns. This approach uses a signal model which is different
+    from the one proposed for different purposes by Hely, Willshaw and
+    Hayes in [4]. This article additionally suggests a different way
+    of creating hard locations in the memory despite the Kanerva’s
+    static model.
+    #+end_quote
+- Anwar and Franklin
+  - 2018
+    - [[https://slideplayer.com/slide/14536735/][Sparse distributed memory for ‘conscious’ software agents]]
+      - [ ] Interesting slides
+  - 1999
+    - [[https://www.researchgate.net/publication/3810408_Using_genetic_algorithms_for_sparse_distributed_memory_initialization][Using genetic algorithms for sparse distributed memory initialization]]
+      - Ashraf Anwar, Dipankar Dasgupta, Stan Franklin
+      - Conference Paper IEEE
+      - February 1999
+      - DOI: 10.1109/CEC.1999.782538 · Source: IEEE Xplore ·
+      - Abstract
+	#+begin_quote
+	We describe the use of genetic algorithms to initialize a set of
+	hard locations that constitutes the storage space of Sparse
+	Distributed Memory (SDM). SDM is an associative memory technique
+	that uses binary spaces, and relies on close memory items tending
+	to be clustered together, with some level of abstraction. An
+	important factor in the physical implementation of SDM is how many
+	hard locations are used, which greatly affects the memory
+	capacity. It is also dependent on the dimension of the binary
+	space used. For the SDM system to function appropriately, the hard
+	locations should be uniformly distributed over the binary
+	space. We represented a set of hard locations of SDM as population
+	members, and employed GA to search for the best (fittest)
+	distribution of hard locations over the vast binary
+	space. Accordingly, fitness is based on how far each hard location
+	is from all other hard locations, which measures the uniformity of
+	the distribution. The preliminary results are very promising, with
+	the GA significantly outperforming random initialization used in
+	most existing SDM implementations. This use of GA, which is
+	similar to the Michigan approach, differs from the standard
+	approach in that the object of the search is the entire population
+	#+end_quote
+- [[https://www.semanticscholar.org/paper/Statistical-Sparse-Distributed-Memory-Prediction-David-Rogers/9cfd59da6778b0d14b18ca689d6c132f53e2de74][Statistical Sparse Distributed Memory Prediction with Kanerva's]]
+  - David, Rogers
+  - Published 1989
+  - Abstract
+    #+begin_quote
+    A new viewpoint of the processing: performed by Kanerva's sparse
+    distributed memory (SDM) is presented. In conditions of nearor
+    overcapacity, where the associative-memory behavior of the model
+    breaks down, the processing performed by the model can be
+    interpreted as that of a statistical predictor. Mathematical
+    results are presented which serve as the framework for a new
+    statistical viewpoint of sparse distributed memory and for which
+    the standard formulation of SDM is a special case. This viewpoint
+    suggests possible enhancements to the SDM model, including a
+    procedure for improving the predictiveness of the system based on
+    Holland's work with 'Genetic Algorithms', and a method for
+    improving the capacity of SDM even when used as an associative
+    memory.
+    #+end_quote
+*** [2020-08-01 Sat]
 - [[https://www.frontiersin.org/articles/10.3389/frobt.2020.00063/full][Symbolic Representation and Learning With Hyperdimensional Computing]]
-  #+begin_quote
-  It has been proposed that machine learning techniques can benefit
-  from symbolic representations and reasoning systems. We describe a
-  method in which the two can be combined in a natural and direct way
-  by use of hyperdimensional vectors and hyperdimensional
-  computing. By using hashing neural networks to produce binary vector
-  representations of images, we show how hyperdimensional vectors can
-  be constructed such that vector-symbolic inference arises naturally
-  out of their output. We design the Hyperdimensional Inference Layer
-  (HIL) to facilitate this process and evaluate its performance
-  compared to baseline hashing networks. In addition to this, we show
-  that separate network outputs can directly be fused at the vector
-  symbolic level within HILs to improve performance and robustness of
-  the overall model. Furthermore, to the best of our knowledge, this
-  is the first instance in which meaningful hyperdimensional
-  representations of images are created on real data, while still
-  maintaining hyperdimensionality.
-  #+end_quote
+  - Front. Robot. AI, 09 June 2020 
+  - Original Research Article
+  - https://doi.org/10.3389/frobt.2020.00063
+  - Abstract
+    #+begin_quote
+    It has been proposed that machine learning techniques can benefit
+    from symbolic representations and reasoning systems. We describe a
+    method in which the two can be combined in a natural and direct way
+    by use of hyperdimensional vectors and hyperdimensional
+    computing. By using **hashing neural networks** to produce binary vector
+    representations of images, we show how hyperdimensional vectors can
+    be constructed such that vector-symbolic inference arises naturally
+    out of their output. We design the **Hyperdimensional Inference Layer**
+    (HIL) to facilitate this process and evaluate its performance
+    compared to baseline hashing networks. In addition to this, we show
+    that separate network outputs can directly be fused at the vector
+    symbolic level within HILs to improve performance and robustness of
+    the overall model. Furthermore, to the best of our knowledge, this
+    is the **first** instance in which **meaningful hyperdimensional
+    representations of images** are created on real data, while still
+    maintaining hyperdimensionality.
+    #+end_quote
 
 ** Kanerva, Pentti
 *** Computing with High-Dimensional Vectors (papers & talks)
@@ -105,6 +230,11 @@
 - [[https://www.youtube.com/watch?v=vbvl0k-aUiE][Deep Learning and the Brain 2019 – Dr. Timothy Lillicrap]]
 
 ** TODO AMU
+- [[https://twitter.com/johntigue/status/545883947431763968][Twitter(JFT, 2014)]]
+- [[http://ltu.diva-portal.org/smash/record.jsf?pid=diva2%3A990549&dswid=2490][Ubiquitous Cognitive Computing: A Vector Symbolic Approach]]
+  - Emruli, Blerim 
+  - 2014 Doctoral thesis
+  - Luleå University of Technology, Department of Computer Science, Electrical and Space Engineering, Embedded Internet Systems Lab.
 ** HD and VSA Workshop 2020
 - [[https://sites.google.com/view/vsaworkshop2020/program][Online Webinars on Developments in Hyperdimensional Computing and Vector-Symbolic Architectures]]
 *** Tony Plate
@@ -127,7 +257,7 @@
   #+end_quote
 - JFT
   - He's saying the the graph isomorphism must be created in realtime, not ahead of time
-    - "Arguable that representations are created on-the-fly in response to task demands"
+    - "Arguable that **representations are created on-the-fly** in response to task demands"
       - Recommends reading Chalmers, French, & Hofstadter, 1992
         - [[https://d1wqtxts1xzle7.cloudfront.net/7369801/ScienceofArt.pdf?1325334763=&response-content-disposition=inline%3B+filename%3DThe_science_of_art_A_neurological_theory.pdf&Expires=1595787260&Signature=NS9T1Tt5aM6fpxEJlNUQ8B6UBwPCle9rFNebYyXN~vix2JBb2NBja2BIwZ~Rw-1IUIvdfJOoD4mfW6ovHqOLICcrOZ5pAjLD5FOIpCMGyDaVZtBnx8UL0V0GQBsac3SBZgQiO0T2zEgfeIda~KxpgQ~txp~5wi2u9qJUdZUkxHvbo48CHxujSO5XFB6Em1zJPg24CPfU8Mh2yeyNFE4dDCJ2c3ze3CKSScZsmd8g1YQ1e3Zn4NFVP1sVZ8UZG3sgGi6BT1tQj2rs7VjQvH5-m1-gng6sczjUnk3aHEzOECqSr~ZsMyCSWAjiMQj5EjycXDP9U0EuB3MRVJGpr7Kgew__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA#page=3][High-Level Perception, Representation, and Analogy:A Critique of Artificial Intelligence Methodology]]
  
